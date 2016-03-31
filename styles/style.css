@@ -1,0 +1,71 @@
+.right{
+	background-color: red;
+	height: 1000px;
+	width: 50%;
+	right:0;
+	
+	position: absolute;
+	
+
+
+	
+
+}
+
+.left{
+	background-color: blue;
+	width:50%;
+	left: 0;
+	height: 1000px;
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	
+}
+
+span{
+	color:white;
+	text-align: center;
+	display: block;
+	font-size: 150px;
+	
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+}
+button:focus { outline: none; }
+#no{
+	margin-top: 50%;
+	display: table-cell;
+	margin-left: 35%;
+	background-color: blue;
+	text-align:center;
+	border: none;
+	
+	
+	
+}
+
+#yes{
+	margin-top:50%;
+	display: inline-block;
+	background-color: red;
+	position: relative;
+	margin-left: 35%;
+	border: none;
+
+}
+
+body{
+	margin:0 ;
+	
+	
+	overflow:hidden;
+}
+
+#wrapper{
+	position: relative;
+
+}
+
